@@ -11,6 +11,7 @@ public class MasterMaterial extends PageBase {
     private static By FilterMaterial = By.xpath("/html/body/div[1]/div/section/section/main/div/div[2]/div/div/div/div/div[2]/div/div[1]/table/thead/tr/th[3]/span[2]");
     private static By ClickSearchbutton = By.xpath("/html/body/div[4]/div/div/div/div/div/button[1]");
     private static By SubcategoryFilter = By.xpath("/html/body/div[4]/div/div/div/div/input");
+    private static By Homepage = By.xpath("//*[@id=\"root\"]/div/section/section/header/ul/ul/li[2]/div/a/div");
 
 
 
@@ -43,5 +44,7 @@ public class MasterMaterial extends PageBase {
 
     }
 
-
+public static void clickHome(){
+        getDriver().findElement(Homepage).click();
+}
 }

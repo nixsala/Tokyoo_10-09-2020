@@ -15,9 +15,10 @@ public class MasterMaterialTest extends TestBase {
        MasterMaterial.clickClickMaterialNV();
        MasterMaterial.clickClickMaterialFIled();
        MasterMaterial.clickFilterMaterial();
-        PageBase.staticWait(10);
+       PageBase.staticWait(10);
        MasterMaterial.sendvalueFilterMaterial("Fine Aggregates");
        MasterMaterial.clickClickSearchbutton();
+       MasterMaterial.clickHome();
 
 
 

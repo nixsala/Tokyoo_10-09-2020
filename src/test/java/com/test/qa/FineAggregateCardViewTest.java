@@ -7,30 +7,15 @@ import utils.TestBase;
 
 
 public class FineAggregateCardViewTest extends TestBase {
-    @Test(priority = 2)
+    @Test(priority = 1)
     public static void aggregate(){
         SoftAssert softAssert=new SoftAssert();
         PageBase.staticWait(10);
+        MasterMaterialTest.materialTest();
         FineAggregateCardView.clickAggregate();
-
-
-
-
-    }
-
-    @Test(priority=1)
-    public static void cardTest(){
-        SoftAssert softAssert=new SoftAssert();
-        PageBase.staticWait(10);
-        MixDesignAdd.clickMixDesign();
-        MixDesignAdd.clickAddMixDesign();
-        MixDesignAdd.clickVerifyFineAggregate();
-
-
-
-
+        PageBase.staticWait(8);
+        FineAggregateCardView.clickreturncard();
 
     }
-
-
     }
+
