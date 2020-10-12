@@ -1,4 +1,4 @@
-package com.test.qa;
+package com.test.qa.CardView;
 
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;

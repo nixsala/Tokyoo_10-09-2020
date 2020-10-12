@@ -1,4 +1,4 @@
-package com.test.qa;
+package com.test.qa.CardView;
 
 import org.openqa.selenium.By;
 import utils.PageBase;
@@ -12,8 +12,6 @@ public class MasterMaterial extends PageBase {
     private static By ClickSearchbutton = By.xpath("/html/body/div[4]/div/div/div/div/div/button[1]");
     private static By SubcategoryFilter = By.xpath("/html/body/div[4]/div/div/div/div/input");
     private static By Homepage = By.xpath("//*[@id=\"root\"]/div/section/section/header/ul/ul/li[2]/div/a/div");
-
-
 
 
     public static void clickClickMaster(){

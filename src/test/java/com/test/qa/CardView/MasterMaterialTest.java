@@ -1,5 +1,6 @@
-package com.test.qa;
+package com.test.qa.CardView;
 
+import com.test.qa.CardView.MasterMaterial;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import utils.PageBase;

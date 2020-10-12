@@ -1,7 +1,6 @@
-package com.test.qa;
+package com.test.qa.CardView;
 
 import org.openqa.selenium.By;
-import org.testng.asserts.SoftAssert;
 import org.testng.log4testng.Logger;
 import utils.PageBase;
 
